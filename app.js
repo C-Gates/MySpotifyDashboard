@@ -4,8 +4,8 @@ const querystring = require('querystring');
 const app = express();
 
 
-const client_id = '4910cfdeab17458b96f46e01e7e18a6b';
-const client_secret = '7b45ad4dbbf14c6a8ac4a944a029c4fe';
+const client_id = '';
+const client_secret = '';
 const redirect_uri = 'http://localhost:8888/callback';
 
 const scopes = 'user-top-read';

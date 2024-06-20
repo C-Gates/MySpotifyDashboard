@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
+}
+
+.App-header {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.stat-body{
+  display: flex;
+  flex-direction: row;
+}
+.stat-container {
+  border: solid 2px greenyellow;
+  border-radius: 10px;
+  height: 100px;
+  width: 100%;
+  margin: 10px;
+  color: white;
+}
+h3 {
+  margin: 0.5em 0;
+}
+.number-circle {
+  background-color: greenyellow;
+  border-radius: 50%;
+  height: 20pt;
+  width: 20pt;
+  position: relative;
+  right: 10pt;
+  top: -8pt;
+  color: black;
+  padding: 0;
+}

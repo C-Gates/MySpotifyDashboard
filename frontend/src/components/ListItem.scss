@@ -1,0 +1,16 @@
+.list-item {
+  text-align: left;
+  padding: 5px;
+  font-size: 1.2rem;
+
+  .count {
+    padding-right: 10px;
+    text-align: right;
+    color: darkgray;
+  }
+
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}
